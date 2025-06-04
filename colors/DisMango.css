@@ -1,4 +1,4 @@
-@import url('https://volrencs.github.io/Breeze-Theme/build/base.css');
+@import url('https://volrencs.github.io/DisBreeze/build/base.css');
 body {
     --gap: 6px; /* Расстояние между панелями */
     --divider-thickness: 2px; /* Толщина разделителя непрочитанных сообщений и границ выделенных сообщений */
@@ -11,13 +11,13 @@ body {
     --window-control-size: 14px; /* Размер кастомных окон управления */
 
     --icon: on;
-    --icon-svg-url: url('https://volrencs.github.io/Breeze-Theme/assets/icon/Mango.svg');
+    --icon-svg-url: url('https://volrencs.github.io/DisBreeze/assets/icon/Mango.svg');
     --icon-svg-size: 100%; /* Размер svg */
     --icon-color-before: var(--text-2); /* Обычный цвет иконки */
     --icon-color-after: var(--text-0); /* Цвет иконки при наведении/выборе кнопки */
 
     --background-image: on;
-    --background-image-url: url('https://volrencs.github.io/Breeze-Theme/assets/background/Mango.png'); /* Url изображения фона */
+    --background-image-url: url('https://volrencs.github.io/DisBreeze/assets/background/Mango.png'); /* Url изображения фона */
 
 }
 
