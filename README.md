@@ -2,7 +2,7 @@
 
 [![Присоединиться к Discord](https://img.shields.io/badge/DISCORD-Join%21-ffd700?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/5CpUtAEhdD)
 
-### [**Breeze**](https://gitlab.com/wwn.games/Breeze-Theme/-/blob/Main/Breeze.css?ref_type=heads)  
+### [**Breeze**](https://github.com/VolRencs/DisBreeze/blob/Main/Breeze.css)  
 ![](https://raw.githubusercontent.com/VolRencs/DisBreeze/refs/heads/Main/image/Breeze.png)
 
 </p>
