@@ -18,10 +18,6 @@
 
 <div align="left">
 
-> [!IMPORTANT]  
-> Ensure **Dark Mode** is enabled in Discord settings for the theme to apply properly!
-> *(If you prefer Light Mode, customize the theme color variables accordingly.)*
-
 #### <span style="color: white;"> **Follow these steps to install the theme:**</span>
 
 ### Vencord
