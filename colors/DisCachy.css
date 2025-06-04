@@ -1,0 +1,63 @@
+@import url('https://volrencs.github.io/Breeze-Theme/build/base.css');
+body {
+    --gap: 6px; /* Расстояние между панелями */
+    --divider-thickness: 2px; /* Толщина разделителя непрочитанных сообщений и границ выделенных сообщений */
+
+    --animations: on;
+
+    --custom-app-top-bar-height: 30px; /* Высота заголовка/верхней панели */
+
+    --custom-window-controls: on;
+    --window-control-size: 14px; /* Размер кастомных окон управления */
+
+    --icon: on;
+    --icon-svg-url: url('https://volrencs.github.io/Breeze-Theme/assets/icon/Cachy.svg');
+    --icon-svg-size: 100%; /* Размер svg */
+    --icon-color-before: var(--text-2); /* Обычный цвет иконки */
+    --icon-color-after: var(--text-0); /* Цвет иконки при наведении/выборе кнопки */
+
+    --background-image: on;
+    --background-image-url: url('https://volrencs.github.io/Breeze-Theme/assets/background/Cachy.png'); /* Url изображения фона */
+
+}
+
+:root {
+    --colors: on;
+
+    /* Цвета текста */
+    --text-0: oklch(0.32 0.04 169.41); /* Текст на цветных элементах */
+    --text-1: oklch(0.72 0.0777 175.76); /* Другой обычный белый текст */
+    --text-2: oklch(0.89 0.0164 151.41); /* Заголовки и важный текст */
+    --text-3: oklch(0.92 0.0104 171.53); /* Обычный текст */
+    --text-4: oklch(0.82 0.0215 165.18); /* Кнопки с иконками и каналы */
+    --text-5: oklch(0.68 0.0241 162); /* Приглушенные каналы/чаты и временные метки */
+
+    /* Фоны и темные цвета */
+    --bg-1: oklch(0.28 0.0161 176.82); /* Темные кнопки при нажатии */
+    --bg-2: oklch(0.25 0.0128 183.2); /* Темные кнопки */
+    --bg-3: oklch(0.36 0.0224 169.32); /* Отступы, второстепенные элементы */
+    --bg-4: oklch(0.23 0.0125 158.64); /* Основной цвет фона */
+    --hover: oklch(0.38 0.0252 153.29); /* Каналы и кнопки при наведении */
+    --active: oklch(0.32 0.023 176.8); /* Каналы и кнопки при нажатии или выборе */
+    --active-2: oklch(0.47 0.043 177.86); /* Дополнительное состояние для прозрачных кнопок */
+    --message-hover: oklch(0 0 0 / 13.33%); /* Сообщения при наведении */
+
+    /* Акцентные цвета */
+    --accent-1: oklch(0.58 0.0667 172.52); /* Ссылки и другой акцентный текст */
+    --accent-2: oklch(0.65 0.0902 147.95); /* Мелкие акцентные элементы */
+    --accent-3: oklch(0.64 0.0835 154.36); /* Акцентные кнопки */
+    --accent-4: oklch(0.57 0.0959 152.23 / 40%); /* Акцентные кнопки при наведении */
+    --accent-5: oklch(0.64 0.0835 160.77 / 30.2%); /* Акцентные кнопки при нажатии */
+    --accent-new: var(--accent-2); /* Элементы, которые обычно красные, как кнопки mute/deafen */
+    --mention: linear-gradient(to right, color-mix(in oklch, var(--accent-2), transparent 90%) 40%, transparent); /* Фон сообщений, которые упоминают вас */
+    --mention-hover: linear-gradient(to right, color-mix(in oklch, var(--accent-2), transparent 95%) 40%, transparent); /* Фон сообщений, которые упоминают вас при наведении */
+    --reply: linear-gradient(to right, color-mix(in oklch, var(--text-3), transparent 90%) 40%, transparent); /* Фон сообщений, которые отвечают на ваши */
+    --reply-hover: linear-gradient(to right, color-mix(in oklch, var(--text-3), transparent 95%) 40%, transparent); /* Фон сообщений, которые отвечают на ваши при наведении */
+
+    /* Цвета индикаторов статуса */
+    --online: oklch(0.57 0.2344 144);
+    --dnd: oklch(0.56 0.1894 22.5);
+    --idle: oklch(0.84 0.1653 82.59);
+    --streaming: oklch(0.49 0.1841 303.85);
+    --offline: oklch(0.79 0.0215 261.76);
+}
