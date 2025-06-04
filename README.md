@@ -26,11 +26,10 @@
 3. Open Discord, go to **Settings**, find the **Themes** section in Vencord settings, and click on **Open Themes Folder**.
 4. Move the downloaded file to the **themes** folder.
 5. Enable the theme in the Vencord settings. *`(Disable all other themes before enabling this one.)`*
-***
+
 ### BetterDiscord
 1. Install [BetterDiscord](https://betterdiscord.app/).
 2. Download this [file](https://gitlab.com/wwn.games/Breeze-Theme/-/raw/Main/Breeze.css?ref_type=heads&inline=false).
 3. Open Discord, go to **Settings**, find the **Themes** section, and click on **Open Themes Folder**.
 4. Move the downloaded file to the **themes** folder.
 5. Enable the theme in the settings. *`(Disable all other themes before enabling this one.)`*
-***
