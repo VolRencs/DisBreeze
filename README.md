@@ -1,5 +1,7 @@
 <div align="center">
 
+# ***Breeze theme for discord***
+
 [![Присоединиться к Discord](https://img.shields.io/badge/DISCORD-Join%21-ffd700?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/5CpUtAEhdD)
 
 ### [**Breeze**](https://github.com/VolRencs/DisBreeze/blob/Main/Breeze.css)  
