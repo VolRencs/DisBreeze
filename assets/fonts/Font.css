@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'Font'; /* Название, которое вы будете использовать для этого шрифта */
-    src: url('https://volrencs.github.io/DisBreeze/assets/fonts/RobotoFont.ttf') format('truetype'); /* Путь к вашему файлу шрифта */
-    font-weight: normal; /* Можно задать жирность шрифта */
-    font-style: normal; /* Можно задать стиль шрифта */
-    font-display: swap; /* Определяет, как шрифт будет загружаться и отображаться */
-}
