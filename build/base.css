@@ -1,4 +1,4 @@
-@import url('https://volrencs.github.io/DisBreeze/assets/fonts/Font.css');
+@import url('https://volrencs.github.io/DisBreeze/assets/fonts/Adwaita.css');
 
 :root {
     container-name: root;
@@ -9,8 +9,8 @@
 body {
     container-name: body;
 
-    --font: 'Font';
-    --code-font: 'Font';
+    --font: 'Adwaita';
+    --code-font: 'Adwaita';
 
     /* sizes */
     --gap: 6px; /* spacing between panels */
