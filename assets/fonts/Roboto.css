@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('https://volrencs.github.io/DisBreeze/assets/fonts/Roboto.woff') format('woff'),
-         url('https://volrencs.github.io/DisBreeze/assets/fonts/Roboto.woff2') format('woff2');
+    src: url('https://volrencs.github.io/DisBreeze/assets/fonts/Roboto.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
