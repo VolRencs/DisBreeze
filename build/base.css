@@ -314,14 +314,14 @@ body {
     .outer_c0bea0,
     .contentWrapper__08434 {
         border-radius: var(--radius-lg);
-        background-position: center calc(0px - var(--border-thickness));
-        background-size: 100% calc(100% + (2 * var(--border-thickness)));
     }
     .inner_c0bea0 {
         border-radius: calc(var(--radius-lg) - 4px);
     }
     .outer_c0bea0 {
         border: 1px solid var(--border-subtle);
+        background-position: center calc(0px - var(--border-thickness));
+        background-size: 100% calc(100% + (2 * var(--border-thickness)));
     }
     .root__24502 {
         background: none;
@@ -746,7 +746,9 @@ body {
         ::placeholder {
             color: var(--text-5);
         }
-
+        .bg__960e4 {
+            background: var(--bg-3);
+        }
         .modeUnreadImportant__2ea32 .icon__2ea32,
         .wrapper__2ea32:hover .icon__2ea32 /* correct channel icon color */ {
             color: var(--text-3);
@@ -785,7 +787,8 @@ body {
         .quickSelectPopout_ebaca5 /* dm vc region select popout */,
         .participantsButton__211d1 /* vc participants button */,
         .voiceBar__7aaec /* n in voice bar (channel list) */,
-        .mainCard_f369db /* form posts */ {
+        .mainCard_f369db /* form posts */,
+        .accountProfileCard__1fed1 /* account settings profile background */ {
             background-color: var(--bg-3);
         }
 
@@ -858,7 +861,8 @@ body {
         .bottomControls_e4cb9a /* stream preview viewer number */,
         .pictureInPictureVideo_e4cb9a .controlIcon_f1ceac /* stream preview control icon */,
         .bannerVisible_f37cb1 .name_f37cb1 /* server name over banner image */,
-        .dropdownButtonBannerVisible__2637a /* server name over banner dropdown button */ {
+        .dropdownButtonBannerVisible__2637a /* server name over banner dropdown button */,
+        .mediaMosaicAltText__0f481 /* image alt text label */ {
             color: var(--text-1);
         }
         .headerText_e4cb9a.base_eb1a4c /* stream preview header text */,
@@ -1035,6 +1039,9 @@ body {
         }
         .vcd-screen-picker-option-radio[data-checked='true'] .defaultColor__4bd52 {
             color: var(--text-0);
+        }
+        .memberRowContainer__71c22.memberSelected__71c22 td {
+            background: var(--bg-3);
         }
     }
     ::selection,
