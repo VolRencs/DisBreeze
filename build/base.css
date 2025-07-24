@@ -899,99 +899,83 @@ body {
         .emptyChannelIcon__00de6 path[fill='var(--white)'] {
             fill: var(--text-3);
         }
-
         .grabber_a562c8 {
             background-color: var(--text-3);
         }
-
         .textBadge__2b1f5 {
             color: var(--text-0);
         }
-
-        .unread__3b95d /* new unreads bar (channel list */ {
+        .unread__3b95d {
             color: var(--text-4);
         }
-
-        .colorable_f1ceac.white_f1ceac /* vc icon button nub when white */ {
+        .colorable_f1ceac.white_f1ceac {
             background-color: var(--primary-130);
             color: var(--bg-4);
         }
-
-        .iconBadge__650eb.isCurrentUserConnected__650eb /* green vc badge when connected */ {
+        .iconBadge__650eb.isCurrentUserConnected__650eb {
             color: var(--text-0);
         }
-
-        .container__37e49 /* user panel buttons */,
-        .numberBadge__2b1f5  /* unread number badge */,
-        .toolbar__9293f /* toolbar button strikethroughs */ {
+        .container__37e49,
+        .numberBadge__2b1f5,
+        .toolbar__9293f {
             --status-danger: var(--accent-new);
         }
-
-        .container__37e49 .button__67645.redGlow__67645 /* user panel button backgrounds*/ {
+        .container__37e49 .button__67645.redGlow__67645 {
             background-color: color-mix(in oklch, var(--accent-new), transparent 90%);
         }
-        .container__37e49 .button__67645.enabled__67645.redGlow__67645:hover /* user panel button backgrounds hover */ {
+        .container__37e49 .button__67645.enabled__67645.redGlow__67645:hover {
             background-color: color-mix(in oklch, var(--accent-new), transparent 80%);
         }
-
-        .divider__5126c /* unread divider */ {
+        .divider__5126c {
             --divider-color: var(--accent-new);
         }
-
-        .iconBadge__9293f /* icon badge */,
-        .mentionsBar__7aaec /* new mention pill */,
-        .mention__3b95d /* server list new mention pill */ {
+        .iconBadge__9293f,
+        .mentionsBar__7aaec,
+        .mention__3b95d {
             background-color: var(--accent-new);
         }
-
-        .newMessagesBar__0f481 /* unread bar */ {
+        .newMessagesBar__0f481 {
             background-color: var(--accent-3);
         }
-        .barButtonAlt__0f481 /* unread bar mark as read button */ {
+        .barButtonAlt__0f481 {
             --button-secondary-background: var(--accent-3);
             --button-secondary-background-hover: var(--accent-4);
         }
-
-        .updateIconForeground__49676 /* update button */ {
+        .updateIconForeground__49676 {
             fill: var(--green-1);
         }
-
-        .colorable_f1ceac.red_f1ceac:hover /* vc disconnect button hover */ {
+        .colorable_f1ceac.red_f1ceac:hover {
             background-color: var(--red-4);
         }
-        .button_f7ecac.dangerous_f7ecac:hover /* image attachment delete button hover in chat bar */ {
+        .button_f7ecac.dangerous_f7ecac:hover {
             color: var(--red-4);
         }
-        .contentWrapper__08434 ::-webkit-scrollbar-thumb /* gif picker scrollbar */ {
+        .contentWrapper__08434 ::-webkit-scrollbar-thumb {
             background-color: var(--bg-1);
         }
-
-        .circleIconButton__5bc7e /* new server button */ {
+        .circleIconButton__5bc7e {
             color: var(--text-3);
         }
         .circleIconButton__5bc7e:hover {
             color: var(--bg-4);
         }
-
-        .tooltipGrey__382e7 /* spotify plugin time tooltip */ {
+        .tooltipGrey__382e7 {
             color: var(--text-3);
             background-color: var(--bg-3);
         }
-
-        .textContentFooter__9a337 /* forum post image fade */ {
+        .textContentFooter__9a337 {
             background: linear-gradient(0deg, var(--bg-4), transparent);
         }
-
-        .result__2dc39:after /* remove gif hover overlay */ {
+        .result__2dc39:after {
             display: none;
         }
-        .result__2dc39:hover /* gif hover */ {
+        .result__2dc39:hover {
             outline: 2px solid var(--accent-2);
         }
-        .reactionBtn__23977.forceShow__23977:hover /* fix add reaction button border hover */ {
+        .reactionBtn__23977.forceShow__23977:hover {
             border-color: var(--bg-2);
         }
-        .flash__03436[data-flash=true] /* reply message flash */ {
+        .flash__03436[data-flash=true] {
             background: var(--background-message-highlight);
         }
         /* Status indicators */
