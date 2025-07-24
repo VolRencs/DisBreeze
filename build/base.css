@@ -744,7 +744,7 @@ body {
         --control-background-primary-default: var(--accent-3);
         --control-background-primary-hover: var(--accent-4);
         --control-border-primary-default: var(--button-border);
-        --control-text-primary-default: var(--text-1);
+        --control-text-primary-default: var(--text-0);
     }
 
     .visual-refresh {
