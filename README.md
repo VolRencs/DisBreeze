@@ -10,13 +10,9 @@
 
 </p>
 
-| [**Mango**](https://github.com/VolRencs/DisBreeze/blob/Main/extras/Mango.css) | [**Cachy**](https://github.com/VolRencs/DisBreeze/blob/Main/extras/Cachy.css) |
-|:--:|:--:|
-| ![](https://raw.githubusercontent.com/VolRencs/DisBreeze/refs/heads/Main/image/Mango.png) | ![](https://raw.githubusercontent.com/VolRencs/DisBreeze/refs/heads/Main/image/Cachy.png) |
-
-| [**Night**](https://github.com/VolRencs/DisBreeze/blob/Main/extras/Night.css) | [**Space**](https://github.com/VolRencs/DisBreeze/blob/Main/extras/Space.css) |
-|:--:|:--:|
-| ![](https://raw.githubusercontent.com/VolRencs/DisBreeze/refs/heads/Main/image/Night.png) | ![](https://raw.githubusercontent.com/VolRencs/DisBreeze/refs/heads/Main/image/Space.png) |
+| [**Mango**](https://github.com/VolRencs/DisBreeze/blob/Main/extras/Mango.css) | [**Cachy**](https://github.com/VolRencs/DisBreeze/blob/Main/extras/Cachy.css) | [**Echo**](https://github.com/VolRencs/DisBreeze/blob/Main/extras/Echo.css) |
+|:--:|:--:|:--:|
+| ![](https://raw.githubusercontent.com/VolRencs/DisBreeze/refs/heads/Main/image/Mango.png) | ![](https://raw.githubusercontent.com/VolRencs/DisBreeze/refs/heads/Main/image/Cachy.png) | ![](https://raw.githubusercontent.com/VolRencs/DisBreeze/refs/heads/Main/image/Echo.png) |
 
 
 <div align="left">
