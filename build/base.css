@@ -741,10 +741,50 @@ body {
 
         --background-code: var(--bg-3);
 
+        --control-background-critical-primary-active: var(--red-5);
+        --control-background-critical-primary-default: var(--red-3);
+        --control-background-critical-primary-hover: var(--red-4);
+        --control-background-critical-primary-loading: var(--red-3);
+        --control-background-critical-secondary-active: var(--text-5);
+        --control-background-critical-secondary-default: var(--bg-2);
+        --control-background-critical-secondary-hover: var(--bg-1);
+        --control-background-critical-secondary-loading: var(--bg-2);
+        --control-background-primary-active: var(--accent-5);
         --control-background-primary-default: var(--accent-3);
         --control-background-primary-hover: var(--accent-4);
+        --control-background-primary-loading: var(--accent-3);
+        --control-background-secondary-active: var(--text-5);
+        --control-background-secondary-default: var(--bg-2);
+        --control-background-secondary-hover: var(--bg-1);
+        --control-background-secondary-loading: var(--bg-2);
+        --control-border-critical-primary-active: var(--button-border);
+        --control-border-critical-primary-default: var(--button-border);
+        --control-border-critical-primary-hover: var(--button-border);
+        --control-border-critical-primary-loading: var(--button-border);
+        --control-border-critical-secondary-active: var(--border-light);
+        --control-border-critical-secondary-default: var(--border-light);
+        --control-border-critical-secondary-hover: var(--border-light);
+        --control-border-critical-secondary-loading: var(--border-light);
+        --control-border-primary-active: var(--button-border);
         --control-border-primary-default: var(--button-border);
+        --control-border-primary-hover: var(--button-border);
+        --control-border-primary-loading: var(--button-border);
+        --control-border-secondary-active: var(--border-light);
+        --control-border-secondary-default: var(--border-light);
+        --control-border-secondary-hover: var(--border-light);
+        --control-border-secondary-loading: var(--border-light);
+        --control-text-critical-secondary-active: var(--red-2);
+        --control-text-critical-secondary-default: var(--red-2);
+        --control-text-critical-secondary-hover: var(--red-2);
+        --control-text-critical-secondary-loading: var(--red-2);
+        --control-text-primary-active: var(--text-0);
         --control-text-primary-default: var(--text-0);
+        --control-text-primary-hover: var(--text-0);
+        --control-text-primary-loading: var(--text-0);
+        --control-text-secondary-active: var(--text-3);
+        --control-text-secondary-default: var(--text-3);
+        --control-text-secondary-hover: var(--text-3);
+        --control-text-secondary-loading: var(--text-3);
     }
 
     .visual-refresh {
@@ -796,13 +836,18 @@ body {
         .expandedFolderIconWrapper__48112 > svg[style="color: rgb(88, 101, 242);"] /* folder icon */ {
             color: var(--accent-2) !important;
         }
-        .colorPickerSwatch__459fb[style="background-color: rgb(88, 101, 242);"] /* folder color picker swatch */,
-        .newBadge_faa96b /* forum post new badge */,
-        .mentioned__5126c:before /* mention message left edge */ {
+        .colorPickerSwatch__459fb[style="background-color: rgb(88, 101, 242);"],
+        .newBadge_faa96b,
+        .mentioned__5126c:before,
+        .container__87bf1.checked__87bf1,
+        .barFill_a562c8 {
             background-color: var(--accent-2) !important;
         }
         .replying__5126c:before /* reply message left edge */ {
             background-color: var(--text-2) !important;
+        }
+        .badge_c3d04b /* shop "orbs exclusive" badge */ {
+            background-color: var(--text-1);
         }
         #app-mount .message__5126c.replying__5126c:hover {
             background: var(--reply-hover);
@@ -826,9 +871,6 @@ body {
         .container__87bf1 {
             background-color: var(--bg-1) !important;
             transition: background-color 0.2s ease;
-        }
-        .container__87bf1.checked__87bf1 {
-            background-color: var(--accent-2) !important;
         }
         .container__87bf1 .slider__87bf1 > svg > path {
             fill: var(--bg-1) !important;
@@ -1006,9 +1048,6 @@ body {
         }
         #vc-spotify-player {
         --vc-spotify-green: var(--accent-2);
-        }
-        .barFill_a562c8 {
-            background-color: var(--accent-2) !important;
         }
         .vcd-screen-picker-option-radio[data-checked='true'] .defaultColor__4bd52 {
             color: var(--text-0);
