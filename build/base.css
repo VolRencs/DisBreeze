@@ -791,13 +791,6 @@ body {
         ::placeholder {
             color: var(--text-5);
         }
-        .modeUnreadImportant__2ea32 .icon__2ea32,
-        .wrapper__2ea32:hover .icon__2ea32 {
-            color: var(--text-3);
-        }
-        .text_b88801 > strong {
-            color: var(--text-3);
-        }
         .folder__48112[aria-expanded="false"] > .folderIconWrapper__48112 {
             --background-primary: var(--bg-3);
         }
@@ -843,10 +836,10 @@ body {
         .barFill_a562c8 {
             background-color: var(--accent-2) !important;
         }
-        .replying__5126c:before /* reply message left edge */ {
+        .replying__5126c:before {
             background-color: var(--text-2) !important;
         }
-        .badge_c3d04b /* shop "orbs exclusive" badge */ {
+        .badge_c3d04b {
             background-color: var(--text-1);
         }
         #app-mount .message__5126c.replying__5126c:hover {
@@ -864,9 +857,6 @@ body {
         }
         .botTagRegular__82f07 {
             background-color: var(--accent-2);
-        }
-        .botTagOP__82f07 {
-            color: var(--text-0);
         }
         .container__87bf1 {
             background-color: var(--bg-1) !important;
@@ -935,7 +925,10 @@ body {
         .tooltipBlack__382e7,
         .colorable_f1ceac.experimentDark_f1ceac,
         .colorable_f1ceac.experimentDark_f1ceac .centerIcon_f1ceac,
-        .circleIconButton__5bc7e {
+        .circleIconButton__5bc7e,
+        .modeUnreadImportant__2ea32 .icon__2ea32,
+        .wrapper__2ea32:hover .icon__2ea32,
+        .text_b88801 > strong {
             color: var(--text-3);
         }
         .status__2f4f7 path[fill='var(--white)'],
@@ -946,7 +939,9 @@ body {
             background-color: var(--text-3);
         }
         .textBadge__2b1f5,
-        .iconBadge__650eb.isCurrentUserConnected__650eb {
+        .iconBadge__650eb.isCurrentUserConnected__650eb,
+        .botTagOP__82f07,
+        .vcd-screen-picker-option-radio[data-checked='true'] .defaultColor__4bd52 {
             color: var(--text-0);
         }
         .unread__3b95d {
@@ -1048,9 +1043,6 @@ body {
         }
         #vc-spotify-player {
         --vc-spotify-green: var(--accent-2);
-        }
-        .vcd-screen-picker-option-radio[data-checked='true'] .defaultColor__4bd52 {
-            color: var(--text-0);
         }
         .memberRowContainer__71c22.memberSelected__71c22 td {
             background: var(--bg-3);
