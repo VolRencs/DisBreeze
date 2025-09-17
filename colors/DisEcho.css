@@ -17,7 +17,6 @@ body {
     --icon-color-after: var(--text-0); /* Цвет иконки при наведении/выборе кнопки */
 
     --background-image: on;
-    --background-image-url: url('https://volrencs.github.io/DisBreeze/assets/background/Echo.png'); /* Url изображения фона */
 
 }
 

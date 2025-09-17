@@ -1,13 +1,17 @@
 /**
-* @name Echo
-* @description Discord theme Echo
-* @author VolRen
-* @version 4.1.0
-* @invite 5CpUtAEhdD
-* @website https://github.com/VolRencs/DisBreeze
-* @source https://github.com/VolRencs/DisBreeze/blob/Main/colors/DisEcho.css
-* @authorId 374190063367487489
-* @authorLink https://github.com/VolRencs
-*/
+ * @name Echo
+ * @description Discord theme Echo
+ * @author VolRen
+ * @version 4.1.0
+ * @invite 5CpUtAEhdD
+ * @website https://github.com/VolRencs/DisBreeze
+ * @source https://github.com/VolRencs/DisBreeze/blob/Main/colors/DisEcho.css
+ * @authorId 374190063367487489
+ * @authorLink https://github.com/VolRencs
+ */
 @import url('https://volrencs.github.io/DisBreeze/colors/DisEcho.css');
 @import url('https://volrencs.github.io/DisBreeze/build/RStatus.css');
+
+body {
+    --background-image-url: url('https://volrencs.github.io/DisBreeze/assets/background/Echo.png'); /* Замените на свой фон */
+}
