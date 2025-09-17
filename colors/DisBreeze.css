@@ -12,7 +12,7 @@ body {
 
     --icon: on;
     --icon-svg-url: url('https://volrencs.github.io/DisBreeze/assets/icon/Breeze.svg');
-    --icon-svg-size: 140%; /* Размер svg */
+    --icon-svg-size: 120%; /* Размер svg */
     --icon-color-before: var(--text-2); /* Обычный цвет иконки */
     --icon-color-after: var(--text-0); /* Цвет иконки при наведении/выборе кнопки */
 
