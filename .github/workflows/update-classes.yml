@@ -30,5 +30,4 @@ jobs:
           default_author: github_actions
           message: "chore: update classes >_<"
           push: true
-          branch: Main
           github_token: ${{ secrets.GITHUB_TOKEN }}
