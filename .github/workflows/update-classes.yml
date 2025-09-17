@@ -2,7 +2,7 @@ name: Update Classes
 
 on:
   schedule:
-    - cron: "0 0 * * *" # каждый день в полночь
+    - cron: "0 0 * * *"
   workflow_dispatch:
   repository_dispatch:
     types: [update_class]
@@ -17,7 +17,7 @@ jobs:
       - id: update
         uses: metro420yt/class-update@v1-rc3
         with:
-          folder: src
+          folder: build
           ext: css
           diff: "https://raw.githubusercontent.com/SyndiShanX/Update-Classes/main/Changes.txt"
 
