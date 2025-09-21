@@ -167,7 +167,7 @@ body {
     .scroller__7d20c,
     .homeWrapper__0920e { /* active now inner, nitro inner */
         border: none;
-    }    
+    }
     .shop__6db1d /* shop */ {
         overflow: hidden;
         height: auto;
@@ -232,7 +232,7 @@ body {
     .wrapper__6c798,
     .wrapper__6c798 > .wrapper_fc8177,
     #vc-spotify-player {
-        background: none;
+    background: none;
     }
     .standardSidebarView__23e6b {
         backdrop-filter: var(--panel-backdrop-filter);
@@ -670,7 +670,7 @@ body {
         --text-warning: var(--yellow-1);
         --text-default: var(--text-3);
         --text-feedback-critical: var(--red-1);
-        --text-feedback-positive: var(--green-1);
+        --text-feedback-positive: var(--accent-new);
         --text-feedback-info: red;
         --text-feedback-warning: var(--yellow-1);
         --text-tertiary: var(--text-4);
@@ -695,7 +695,7 @@ body {
 
         --background-feedback-critical: color-mix(in oklch, var(--red-2), transparent 80%);
         --background-feedback-info: color-mix(in oklch, var(--blue-2), transparent 80%);
-        --background-feedback-positive: color-mix(in oklch, var(--green-2), transparent 80%);
+        --background-feedback-positive: color-mix(in oklch, var(--accent-2), transparent 80%);
         --background-feedback-warning: color-mix(in oklch, var(--yellow-2), transparent 80%);
 
         --interactive-normal: var(--text-4);
@@ -843,7 +843,7 @@ body {
             background-color: var(--text-1);
         }
         #app-mount .message__5126c.replying__5126c:hover {
-            background: var(--reply-hover);
+        background: var(--reply-hover);
         }
         .visual-refresh .voiceBar__7aaec .barText__7aaec,
         .visual-refresh .voiceChannelsIcon__7aaec {
@@ -953,7 +953,7 @@ body {
         }
         .container__37e49,
         .numberBadge__2b1f5,
-        .toolbar__9293f {
+        .toolbar__9293f, {
             --status-danger: var(--accent-new);
         }
         .container__37e49 .button__67645.redGlow__67645 {
@@ -1031,7 +1031,6 @@ body {
         rect[fill='#9147ff'] {
             fill: var(--streaming);
         }
-        /* fix radio bar button colors */
         .radioBar__001a7[style='--radio-bar-accent-color: var(--yellow-360); padding: 10px;'] {
             --radio-bar-accent-color: var(--yellow-2) !important;
         }
