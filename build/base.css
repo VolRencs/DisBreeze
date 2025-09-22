@@ -724,6 +724,9 @@ body {
         --green-330: var(--accent-1);
         --green-300: var(--accent-1);
         --primary-400: var(--text-4);
+        --opacity-green-12: var(--accent-5);
+        --opacity-green-36: var(--accent-5);
+        --opacity-green-24: var(--accent-4);
 
         --deprecated-text-input-bg: var(--bg-3);
         --deprecated-text-input-border: var(--border-light);
@@ -855,7 +858,8 @@ body {
             fill: var(--bg-1) !important;
             transition: fill 0.2s ease;
         }
-        .container__6f89e.checked__6f89e .slider__6f89e > svg > path {
+        .container__6f89e.checked__6f89e .slider__6f89e > svg > path,
+        .lottieIconColors__5eb9b :not(defs *)[fill][fill-opacity] {
             fill: var(--accent-2) !important;
         }
         .container__6f89e rect[fill='white'] {
