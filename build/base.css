@@ -970,6 +970,10 @@ body {
             --button-secondary-background: var(--accent-3);
             --button-secondary-background-hover: var(--accent-4);
         }
+        .colorable_f1ceac.disconnect_f1ceac:hover,
+        .colorable_f1ceac.disconnect_f1ceac {
+            background: var(--accent-4);
+        }
         .updateIconForeground__49676 {
             fill: var(--green-1);
         }
