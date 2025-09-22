@@ -80,7 +80,19 @@ body {
     }
     .clickable_f37cb1,
     .container__2637a,
-    .header_f37cb1 {
+    .header_f37cb1,
+    .members_c8ffbb,
+    .member_c8ffbb,
+    .privateChannels__35e86,
+    .scroller__99e7c,
+    .tabBody__133bf,
+    .standardSidebarView__23e6b,
+    .contentRegion__23e6b,
+    .sidebarRegionScroller__23e6b,
+    .contentRegionScroller__23e6b,
+    .wrapper__71152,
+    .wrapper__71152 > .wrapper_fc8177,
+    #vc-spotify-player {
         background: none;
     }
     .scroller__629e4 {
@@ -137,13 +149,6 @@ body {
         height: auto;
         min-width: fit-content;
     }
-    .members_c8ffbb,
-    .member_c8ffbb,
-    .privateChannels__35e86,
-    .scroller__99e7c,
-    .tabBody__133bf {
-        background: none;
-    }
     .resizeHandle__01ae2 {
         background: transparent;
     }
@@ -159,7 +164,11 @@ body {
     .container__7d20c,
     .applicationStore_f07d62,
     .homeWrapper__0920e,
-    .scroller__7d20c {
+    .scroller__7d20c,
+    .container__01ae2,
+    .container_fb64c9,
+    .channelChatWrapper_cb9592,
+    .wrapper_cb9592 {
         background: none;
         border: none;
     }
@@ -187,13 +196,6 @@ body {
         box-sizing: border-box;
         height: 40px;
     }
-    .container__01ae2,
-    .container_fb64c9,
-    .channelChatWrapper_cb9592,
-    .wrapper_cb9592 {
-        border: none;
-        background: none;
-    }
     .chat_ee72fa::before,
     .chat_fb64c9::before {
         display: none;
@@ -214,15 +216,6 @@ body {
     .wrapper_cb9592 {
         margin-bottom: var(--gap);
     }
-    .standardSidebarView__23e6b,
-    .contentRegion__23e6b,
-    .sidebarRegionScroller__23e6b,
-    .contentRegionScroller__23e6b,
-    .wrapper__71152,
-    .wrapper__71152 > .wrapper_fc8177,
-    #vc-spotify-player {
-    background: none;
-    }
     .standardSidebarView__23e6b {
         backdrop-filter: var(--panel-backdrop-filter);
     }
@@ -242,14 +235,9 @@ body {
         width: calc(var(--guildbar-avatar-size) + var(--custom-guild-list-padding) * 2);
         padding: calc(var(--custom-guild-list-padding) / 2);
     }
-    .channelTextArea_f75fb0 {
-        border-radius: var(--radius-md);
-    }
-
     .themedBackground__74017 {
         background: none;
     }
-
     .slateTextArea_ec4baf {
         margin-left: 2px;
     }
@@ -297,7 +285,8 @@ body {
     .embedFull__623de,
     .hljs,
     .imageWrapper_af017a,
-    .container__9271d {
+    .container__9271d,
+    .channelTextArea_f75fb0 {
         border-radius: var(--radius-md);
     }
     .outer_c0bea0,
