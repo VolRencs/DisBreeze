@@ -839,6 +839,9 @@ body {
         .botTagRegular__82f07 {
             background-color: var(--accent-2);
         }
+        .fullRegionDropdownButton_f1ceac.disconnect_f1ceac{
+            background-color: var(--accent-4);
+        }
         .container__6f89e {
             background-color: var(--bg-1) !important;
             transition: background-color 0.2s ease;
