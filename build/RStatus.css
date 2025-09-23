@@ -73,6 +73,10 @@ border-radius: var(--rs-avatar-shape);
     &[x='16'] { width: 24px; height: 24px; }
     &[x='28'] { width: 40px; height: 40px; overflow: visible; }
 }
+#app-mount .wrapper__44b0c[style*="20px"] foreignObject[mask*=svg-mask-avatar-status-round-20] {
+    width: 25px;
+    height: 25px;
+}
 #app-mount .wrapper__44b0c[style*="32px"] rect {
     width: 32px;
     height: 32px;
