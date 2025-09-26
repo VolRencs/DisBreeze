@@ -8,7 +8,7 @@
     --rs-avatar-shape: 50%;
 }
 #app-mount .wrapper__44b0c {
-border-radius: var(--rs-avatar-shape);
+    border-radius: var(--rs-avatar-shape);
 }
 #app-mount .wrapper__44b0c svg:not(:root) {
     overflow: visible;
@@ -69,7 +69,7 @@ border-radius: var(--rs-avatar-shape);
     &[fill='#ca9654'] { stroke: var(--idle); }
     &[fill='#d83a42'] { stroke: var(--dnd); }
     &[fill='#593695'], &[mask*='streaming'], &[fill*='var(--status-purple'] { stroke: var(--streaming); }
-    &[fill='#80848e'], &[fill='#82838b'] { stroke: var(--offline); }
+    &[fill='#82838b'] { stroke: var(--offline); }
     &[x='16'] { width: 24px; height: 24px; }
     &[x='28'] { width: 40px; height: 40px; overflow: visible; }
 }
