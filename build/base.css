@@ -90,8 +90,8 @@ body {
     .contentRegion__23e6b,
     .sidebarRegionScroller__23e6b,
     .contentRegionScroller__23e6b,
-    .wrapper_da5890,
-    .wrapper_da5890 > .wrapper_fc8177,
+    .wrapper__6c798,
+    .wrapper__6c798 > .wrapper_fc8177,
     #vc-spotify-player {
         background: none;
     }
@@ -772,7 +772,7 @@ body {
         ::placeholder {
             color: var(--text-5);
         }
-        .hiddenVisually__27f77[aria-expanded="false"] > .folderPreviewWrapper__48112 {
+        .hiddenVisually_b18fe2[aria-expanded="false"] > .folderPreviewWrapper__48112 {
             --background-primary: var(--bg-3);
         }
         .panel__5dec7,
