@@ -1000,6 +1000,12 @@ body {
         .flash__03436[data-flash=true] {
             background: var(--background-message-highlight);
         }
+        rect, path, .vc-platform-indicator > svg, .status_a423bd {
+            &[fill='#82838b'], &[style*='rgb(130, 131, 139)'] { fill: var(--offline) !important; background-color: var(--offline) !important; }
+            &[fill='#43a25a'], &[fill='var(--status-positive)'], &[style*='rgb(67, 162, 90)'] { fill: var(--online) !important; background-color: var(--online) !important; }
+            &[fill='#ca9654'], &[style*='rgb(202, 150, 84)'] { fill: var(--idle) !important; background-color: var(--idle) !important; }
+            &[fill='#d83a42'], &[style*='rgb(216, 58, 66)'] { fill: var(--dnd) !important; background-color: var(--dnd) !important; }
+        }
         .radioBar__1bda4[style='--radio-bar-accent-color: var(--yellow-360); padding: 10px;'] {
             --radio-bar-accent-color: var(--yellow-2) !important;
         }
