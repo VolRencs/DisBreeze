@@ -1006,14 +1006,10 @@ body {
             &[fill='#ca9654'], &[style*='rgb(202, 150, 84)'] { fill: var(--idle) !important; background-color: var(--idle) !important; }
             &[fill='#d83a42'], &[style*='rgb(216, 58, 66)'] { fill: var(--dnd) !important; background-color: var(--dnd) !important; }
         }
-        .radioBar__1bda4[style='--radio-bar-accent-color: var(--yellow-360); padding: 10px;'] {
-            --radio-bar-accent-color: var(--yellow-2) !important;
-        }
-        .radioBar__1bda4[style='--radio-bar-accent-color: var(--green-360); padding: 10px;'] {
-            --radio-bar-accent-color: var(--green-2) !important;
-        }
-        .radioBar__1bda4[style='--radio-bar-accent-color: var(--red-400); padding: 10px;'] {
-            --radio-bar-accent-color: var(--red-2) !important;
+        .radioBar__1bda4 {
+            &[style*='--radio-bar-accent-color: var(--yellow-360)'] { --radio-bar-accent-color: var(--yellow-2) !important; }
+            &[style*='--radio-bar-accent-color: var(--green-360)'] { --radio-bar-accent-color: var(--green-2) !important; }
+            &[style*='--radio-bar-accent-color: var(--red-400)'] { --radio-bar-accent-color: var(--red-2) !important; }
         }
         #vc-spotify-player {
         --vc-spotify-green: var(--accent-2);
