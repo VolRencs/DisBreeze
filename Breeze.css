@@ -2,7 +2,7 @@
 * @name Breeze
 * @description Discord theme adapted for Breeze
 * @author VolRen
-* @version 4.1.0
+* @version 5.0.0
 * @invite 5CpUtAEhdD
 * @website https://github.com/VolRencs/DisBreeze
 * @source https://github.com/VolRencs/DisBreeze/blob/Main/colors/DisBreeze.css
@@ -10,4 +10,3 @@
 * @authorLink https://github.com/VolRencs
 */
 @import url('https://volrencs.github.io/DisBreeze/colors/DisBreeze.css');
-@import url('https://volrencs.github.io/DisBreeze/build/RStatus.css');

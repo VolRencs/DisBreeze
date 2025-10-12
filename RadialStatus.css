@@ -6,6 +6,11 @@
     --rs-medium-width: 3px;
     --rs-large-width: 4px;
     --rs-avatar-shape: 50%;
+
+    --online: oklch(0.57 0.2344 257.2136);
+    --dnd: oklch(0.56 0.1894 22.5);
+    --idle: oklch(0.84 0.1653 82.59);
+    --offline: oklch(0.79 0.0215 261.76);
 }
 #app-mount .wrapper__44b0c {
     border-radius: var(--rs-avatar-shape);
@@ -68,7 +73,6 @@
     &[fill='#43a25a'] { stroke: var(--online); }
     &[fill='#ca9654'] { stroke: var(--idle); }
     &[fill='#d83a42'] { stroke: var(--dnd); }
-    &[fill='#593695'], &[mask*='streaming'], &[fill*='var(--status-purple'] { stroke: var(--streaming); }
     &[fill='#82838b'] { stroke: var(--offline); }
     &[x='16'] { width: 24px; height: 24px; }
     &[x='28'] { width: 40px; height: 40px; overflow: visible; }

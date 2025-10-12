@@ -93,7 +93,7 @@ body {
     .wrapper_d852db,
     .wrapper_d852db > .wrapper_fc8177,
     #vc-spotify-player {
-        background: none;
+    background: none;
     }
     .scroller__629e4 {
         margin-bottom: 0;
@@ -659,7 +659,7 @@ body {
         --status-danger: var(--red-2);
         --status-danger-background: var(--red-3);
         --status-danger-text: var(--white);
-        --status-dnd: var(--dnd); /* server profiles */
+        --status-dnd: var(--dnd);
         --status-idle: var(--idle);
         --status-offline: var(--offline);
         --status-online: var(--online);
@@ -999,26 +999,6 @@ body {
         }
         .flash__03436[data-flash=true] {
             background: var(--background-message-highlight);
-        }
-        /* Status indicators */
-        rect[fill='#82838b'], .status_a423bd[style='background-color: rgb(130, 131, 139);'] {
-            fill: var(--offline);
-            background-color: var(--offline) !important;
-        }
-        rect[fill='#43a25a'], path[fill='#43a25a'], .vc-platform-indicator > svg[fill="#43a25a"], .status_a423bd[style='background-color: rgb(67, 162, 90);'], path[fill='var(--status-positive)'] {
-            fill: var(--online);
-            background-color: var(--online) !important;
-        }
-        rect[fill='#ca9654'], .vc-platform-indicator > svg[fill='#ca9654'], .status_a423bd[style='background-color: rgb(202, 150, 84);'] {
-            fill: var(--idle);
-            background-color: var(--idle) !important;
-        }
-        rect[fill='#d83a42'], .vc-platform-indicator > svg[fill='#d83a42'], .status_a423bd[style='background-color: rgb(216, 58, 66);'] {
-            fill: var(--dnd);
-            background-color: var(--dnd) !important;
-        }
-        rect[fill='#9147ff'] {
-            fill: var(--streaming);
         }
         .radioBar__1bda4[style='--radio-bar-accent-color: var(--yellow-360); padding: 10px;'] {
             --radio-bar-accent-color: var(--yellow-2) !important;
