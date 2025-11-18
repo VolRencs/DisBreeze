@@ -1,4 +1,4 @@
-@import url('https://volrencs.github.io/DisBreeze/assets/fonts/Adwaita.css');
+@import url('https://volrencs.github.io/DisBreeze/assets/fonts/NotoSans.css');
 
 :root {
     container-name: root;
@@ -9,8 +9,8 @@
 body {
     container-name: body;
 
-    --font: 'Adwaita';
-    --code-font: 'Adwaita';
+    --font: 'NotoSans';
+    --code-font: 'NotoSans';
 
     --gap: 6px;
     --divider-thickness: 2px;
@@ -772,16 +772,6 @@ body {
         .side_aa8da2 .item_aa8da2:active,
         .side_aa8da2 .item_aa8da2.selected_aa8da2 {
             background-color: var(--bg-2) !important;
-        }
-        .sidebar__23e6b {
-            position: relative;
-            background: linear-gradient(to top, var(--bg-1) 70%, var(--bg-4) 85%, transparent 100%);
-            overflow: hidden;
-            border-bottom-left-radius: var(--radius-lg);
-            border-bottom-right-radius: var(--radius-lg);
-        }
-        .side_aa8da2 {
-            margin-left: -13px;
         }
         .quickSelectPopout_ebaca5,
         .participantsButton__211d1,
