@@ -135,7 +135,7 @@
     clip-path: none;
 }
 #app-mount .wrapper__44b0c foreignObject[mask*=mobile] {
-property: inherit;
+    fill: inherit;
 }
 #app-mount .wrapper__44b0c foreignObject[mask*=mobile][width="24"]:after {
     width: 10px;
