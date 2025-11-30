@@ -12,11 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           repository: VolRencs/DisBreeze
       - id: update
-        uses: metro420yt/class-update@v1-rc3
+        uses: metro420yt/class-update@v1
         with:
           folder: build
           ext: css
