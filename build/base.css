@@ -484,7 +484,7 @@ body {
         --background-code-deletion: blue;
         --background-feedback-critical: color-mix(in hsl, var(--red-2), transparent 80%);
         --background-feedback-info: color-mix(in hsl, var(--blue-2), transparent 80%);
-        --background-feedback-positive: color-mix(in hsl, var(--green-2), transparent 80%);
+        --background-feedback-positive: color-mix(in hsl, var(--accent-3), transparent 80%);
         --background-feedback-warning: color-mix(in hsl, var(--yellow-2), transparent 80%);
         --background-mod-muted: var(--hover);
         --background-mod-normal: var(--bg-2);
@@ -851,7 +851,7 @@ body {
         --status-positive: var(--green-2);
         --status-positive-background: var(--green-2);
         --status-positive-text: magenta;
-        --status-speaking: var(--green-2);
+        --status-speaking: var(--accent-3);
         --status-warning: var(--yellow-2);
         --status-warning-background: red;
         --status-warning-text: yellow;
