@@ -472,7 +472,7 @@ body {
     .theme-light:not(.custom-user-profile-theme) {
         --app-frame-background: var(--bg-3);
         --app-frame-border: var(--border);
-        --app-message-embed-secondary-text: yellow;
+        --app-message-embed-secondary-text: var(--text-2);
 
         --background-accent: var(--bg-2);
         --background-base-low: var(--bg-4);
@@ -501,10 +501,10 @@ body {
 
         --border-faint: var(--border-light);
         --border-subtle: var(--border);
-        --badge-background-default: blue;
+        --badge-background-default: var(--accent-2);
         --badge-expressive-background-default: magenta;
         --badge-expressive-text-default: red;
-        --badge-text-default: yellow;
+        --badge-text-default: var(--text-0);
         --bg-surface-overlay-tmp: lime;
         --bg-surface-raised: blue;
         --border-feedback-critical: magenta;
@@ -893,20 +893,20 @@ body {
         --text-muted: var(--text-5);
         --text-overlay-dark: magenta;
         --text-overlay-light: red;
-        --text-status-dnd: yellow;
-        --text-status-idle: lime;
-        --text-status-offline: blue;
-        --text-status-online: magenta;
+        --text-status-dnd: var(--dnd);
+        --text-status-idle: var(--idle);
+        --text-status-offline: var(--offline);
+        --text-status-online: var(--online);
         --text-strong: var(--text-2);
         --text-subtle: var(--text-4);
         --textbox-markdown-syntax: var(--text-4);
         --thread-channel-spine: blue;
         --user-profile-activity-toolbar-background: magenta;
-        --user-profile-background-hover: red;
+        --user-profile-background-hover: var(--hover);
         --user-profile-border: var(--border);
         --user-profile-note-background-focus: lime;
         --user-profile-overlay-background: var(--bg-4);
-        --user-profile-overlay-background-hover: var(--bg-2);
+        --user-profile-overlay-background-hover: var(--hover);
         --user-profile-toolbar-background: var(--bg-3);
         --user-profile-toolbar-border: var(--border);
 
@@ -1038,7 +1038,8 @@ body {
 ._0f481cbbd7530492-mediaMosaicAltText,
 .e4cb9af80253a521-headerText.base_eb1a4c,
 ._2cdb89539fd956c8-participantName,
-.fb7f9476ada049c8-bannerButton {
+.fb7f9476ada049c8-bannerButton,
+._98ba899df138d534-embed {
     color: var(--text-1) !important;
 }
 .cf09d85aafe7e124-playPausePopIcon > path,
