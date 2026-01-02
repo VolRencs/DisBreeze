@@ -918,6 +918,9 @@ body {
         --green-360: var(--accent-3);
         --yellow-300: var(--yellow-2);
         --primary-400: var(--text-4);
+        --opacity-green-12: var(--accent-5);
+        --opacity-green-36: var(--accent-5);
+        --opacity-green-24: var(--accent-4);
     }
 
 ::placeholder {
