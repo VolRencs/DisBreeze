@@ -915,8 +915,11 @@ body {
         --red-400: var(--red-2);
         --red-500: var(--red-3);
 
-        --green-360: var(--accent-3);
         --yellow-300: var(--yellow-2);
+
+        --green-360: var(--accent-3);
+        --green-330: var(--accent-1);
+        --green-300: var(--accent-1);
         --primary-400: var(--text-4);
         --opacity-green-12: var(--accent-5);
         --opacity-green-36: var(--accent-5);
