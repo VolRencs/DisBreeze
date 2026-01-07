@@ -70,10 +70,10 @@
     rx: var(--rs-avatar-shape); ry: var(--rs-avatar-shape);
     fill: transparent !important;
     stroke-width: var(--rs-small-width);
-    &[fill='#43a25a'] { stroke: var(--online); }
-    &[fill='#ca9654'] { stroke: var(--idle); }
-    &[fill='#d83a42'] { stroke: var(--dnd); }
-    &[fill='#82838b'] { stroke: var(--offline); }
+    &[fill='#45a366'] { stroke: var(--online); }
+    &[fill='#ffc04e'] { stroke: var(--idle); }
+    &[fill='#da3e44'] { stroke: var(--dnd); }
+    &[fill='#84858d'] { stroke: var(--offline); }
     &[x='16'] { width: 24px; height: 24px; }
     &[x='28'] { width: 40px; height: 40px; overflow: visible; }
 }
