@@ -1,11 +1,15 @@
 @import url('https://volrencs.github.io/DisBreeze/assets/fonts/NotoSans.css');
 
 :root {
+    container-name: root;
+
     --custom-guild-list-padding: 12px;
     --panel-backdrop-filter: none;
 }
 
 body {
+    container-name: body;
+
     --font: 'NotoSans';
     --code-font: 'NotoSans';
 
