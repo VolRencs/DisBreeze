@@ -110,7 +110,6 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    width: auto;
     border-radius: var(--radius-lg) var(--radius-lg) 0 0;
 }
 ._5e434347c823b592-sidebar:after {
@@ -412,7 +411,6 @@ body {
     .f75fb00fb7356cbe-form:has(.b8880176888cc928-typing) .b8880176888cc928-base {
         opacity: 1;
         transform: translateY(0) scale(1);
-        pointer-events: auto;
     }
     .f75fb00fb7356cbe-form:has(.b8880176888cc928-base) :is(.f75fb00fb7356cbe-channelTextArea, ._44df51b030bd5ece-wrapper) {
         border-radius: 0 0 var(--radius-md) var(--radius-md);
@@ -1120,7 +1118,8 @@ body {
 ._9293f6b2fc12398a-iconBadge,
 ._7aaec78b97ff00f7-mentionsBar,
 ._3b95d7d910416e54-mention,
-.c99c29809d200a61-badge {
+.c99c29809d200a61-badge,
+.c69b6db0641110f6-voiceChannelHighlightGlow {
     background-color: var(--accent-new);
 }
 ._0f481cbbd7530492-newMessagesBar {
