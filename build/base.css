@@ -1,14 +1,11 @@
 @import url('https://volrencs.github.io/DisBreeze/assets/fonts/NotoSans.css');
 
 :root {
-    container-name: root;
     --custom-guild-list-padding: 12px;
     --panel-backdrop-filter: none;
 }
 
 body {
-    container-name: body;
-
     --font: 'NotoSans';
     --code-font: 'NotoSans';
 
@@ -96,10 +93,7 @@ body {
 ._6c79861fd96f56b1-wrapper,
 ._6c79861fd96f56b1-wrapper > .fc817765600a960a-wrapper,
 #vc-spotify-player {
-    background: none;
-}
-._629e4c86564a4ee7-scroller {
-    margin-bottom: 0;
+    background: transparent;
 }
 .f37cb1984c371ee5-bannerImage,
 .f37cb1984c371ee5-bannerImg {
@@ -122,7 +116,7 @@ body {
 ._133bf5eea8e33a34-container,
 ._5e434347c823b592-page {
     border: none !important;
-    background: none;
+    background: transparent;
 }
 ._133bf5eea8e33a34-container,
 ._5e434347c823b592-page {
@@ -151,15 +145,16 @@ body {
     margin-left: var(--gap);
     overflow: hidden;
     height: auto;
-    min-width: fit-content;
+    min-width: 0;
 }
 ._01ae244280823725-resizeHandle {
     background: transparent;
 }
-._99e7cad8d4c55236-scroller {
+._99e7cad8d4c55236-scroller,
+._629e4c86564a4ee7-scroller {
     margin-bottom: 0;
 }
-._5e434347c823b592-page > div > .f75fb00fb7356cbe-chat > .f75fb00fb7356cbe-content {
+._5e434347c823b592-page .f75fb00fb7356cbe-content {
     border-left: none;
 }
 ._133bf5eea8e33a34-nowPlayingColumn {
@@ -173,12 +168,11 @@ body {
 .fb64c9a451c49797-container,
 .cb9592ad77576717-channelChatWrapper,
 .cb9592ad77576717-wrapper {
-    background: none;
-    border: none;
+    background: transparent;
+    border: 0;
 }
 ._6db1d32c47b6ad72-shop {
     overflow: hidden;
-    height: auto;
 }
 ._084152b107f71237-shop {
     margin-top: calc(var(--custom-channel-header-height) * -1 - 16px);
@@ -191,7 +185,7 @@ body {
     overflow: hidden;
     min-width: 340px;
     height: 100%;
-    background-position: center calc(-1 * var(--border-thickness));
+    background-position: center calc(var(--border-thickness) * -1);
     background-size: 100% calc(100% + (2 * var(--border-thickness)));
 }
 .a98f3b020416ad54-searchResultsWrap {
@@ -243,7 +237,7 @@ body {
     padding: calc(var(--custom-guild-list-padding) / 2);
 }
 ._740174f3d6a2c8fe-themedBackground {
-    background: none;
+    background: transparent;
 }
 .ec4baf0360ff3578-slateTextArea {
     margin-left: 2px;
@@ -309,7 +303,7 @@ body {
     background-size: 100% calc(100% + (2 * var(--border-thickness)));
 }
 ._24502a4069848acb-root {
-    background: none;
+    background: transparent;
 }
 ._37e49614b9f110a9-container {
     margin-inline-start: 0;
@@ -332,9 +326,8 @@ body {
     --font-display: var(--font);
     --font-code: var(--code-font);
 }
-
-[class*='scroll'] {
-    will-change: scroll-position;
+[class*='scroller'] {
+    contain: paint;
 }
 ._23977d5b7cef7361-burstGlow {
     display: none;
@@ -346,26 +339,21 @@ body {
 }
 
 @container body style(--animations: on) {
-    ._2ea32c412048f708-wrapper ._2ea32c412048f708-link,
-    ._91a9d7f7e5248a56-container,
-    ._972a0d22c8afa7f0-channel,
-    .aa8da23faa27393c-side .aa8da23faa27393c-item {
-        transition: transform 0.30s ease;
+    :where(
+        ._2ea32c412048f708-wrapper ._2ea32c412048f708-link,
+        ._91a9d7f7e5248a56-container,
+        ._972a0d22c8afa7f0-channel,
+        .aa8da23faa27393c-side .aa8da23faa27393c-item
+    ) {
+        transition: transform 0.18s cubic-bezier(.2,.8,.2,1);
     }
-    ._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-link,
-    .aa8da23faa27393c-side .aa8da23faa27393c-item:hover,
-    ._91a9d7f7e5248a56-container:hover,
-    ._972a0d22c8afa7f0-channel:hover {
-        transform: scaleX(0.95);
-    }
-    ._2ea32c412048f708-unread {
-        border-radius: 50%;
-        width: 8px;
-        height: 8px;
-        transform: translateX(-4px);
-    }
-    ._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-unread {
-        transform: translateX(3px);
+    :where(
+        ._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-link,
+        .aa8da23faa27393c-side .aa8da23faa27393c-item:hover,
+        ._91a9d7f7e5248a56-container:hover,
+        ._972a0d22c8afa7f0-channel:hover
+    ) {
+        transform: scale(0.97);
     }
 }
 @property --background-image {
@@ -381,6 +369,7 @@ body {
         background-position: center;
     }
 }
+
 @property --custom-chatbar {
     syntax: 'off | on';
     inherits: false;
@@ -508,7 +497,6 @@ body {
         --bg-brand: var(--accent-2);
 
         --border-faint: var(--border-light);
-        --border-subtle: var(--border);
         --badge-background-default: var(--accent-2);
         --badge-expressive-background-default: var(--bg-2);
         --badge-expressive-text-default: var(--red-2);
@@ -722,7 +710,7 @@ body {
         --icon-default: var(--bg-1);
         --icon-feedback-critical: var(--red-1);
         --icon-feedback-info: var(--blue-1);
-        --icon-feedback-positive: var(--green-1);
+        --icon-feedback-positive: var(--accent-new);
         --icon-feedback-warning: var(--yellow-1);
         --icon-invert: var(--bg-2);
         --icon-link: var(--red-2);
@@ -844,7 +832,7 @@ body {
         --spoiler-revealed-background: var(--bg-3);
         --status-danger: var(--red-2);
         --status-online: var(--green-2);
-        --status-positive: var(--green-2);
+        --status-positive: var(--accent-new);
         --status-positive-background: var(--green-2);
         --status-positive-text: var(--bg-2);
         --status-speaking: var(--accent-3);
@@ -908,7 +896,6 @@ body {
 
         --white: var(--text-0);
         --white-500: var(--text-0);
-        --redesign-button-overlay-alpha-text: var(--text-2);
 
         --brand-360: var(--accent-2);
         --brand-500: var(--accent-2);
@@ -936,7 +923,7 @@ body {
 }
 ._5dec784a68542d60-panel,
 ._722ffae0e1be2672-container {
-    background: none;
+    background: transparent;
 }
 .aa8da23faa27393c-side .aa8da23faa27393c-item:hover {
     background-color: var(--bg-3) !important;
@@ -1258,9 +1245,7 @@ body {
         content: '';
         width: 20px;
         height: 20px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+        background: center / contain no-repeat;
         border-radius: 0;
         display: var(--custom-nav);
         transition: transform 0.2s, filter 0.2s;
