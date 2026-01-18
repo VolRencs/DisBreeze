@@ -4,7 +4,6 @@
     container-name: root;
 
     --custom-guild-list-padding: 12px;
-    --panel-backdrop-filter: none;
 }
 
 body {
@@ -49,7 +48,6 @@ body {
     background-color: var(--background-base-lower);
     border-radius: var(--radius-lg);
     border: var(--border-thickness) solid var(--border-subtle);
-    backdrop-filter: var(--panel-backdrop-filter);
     box-sizing: border-box;
 }
 ._5e434347c823b592-panels {
@@ -97,7 +95,7 @@ body {
 ._6c79861fd96f56b1-wrapper,
 ._6c79861fd96f56b1-wrapper > .fc817765600a960a-wrapper,
 #vc-spotify-player {
-    background: transparent;
+    background: none;
 }
 .f37cb1984c371ee5-bannerImage,
 .f37cb1984c371ee5-bannerImg {
@@ -119,7 +117,7 @@ body {
 ._133bf5eea8e33a34-container,
 ._5e434347c823b592-page {
     border: none !important;
-    background: transparent;
+    background: none;
 }
 ._133bf5eea8e33a34-container,
 ._5e434347c823b592-page {
@@ -150,7 +148,7 @@ body {
     min-width: 0;
 }
 ._01ae244280823725-resizeHandle {
-    background: transparent;
+    background: none;
 }
 ._99e7cad8d4c55236-scroller,
 ._629e4c86564a4ee7-scroller {
@@ -170,8 +168,8 @@ body {
 .fb64c9a451c49797-container,
 .cb9592ad77576717-channelChatWrapper,
 .cb9592ad77576717-wrapper {
-    background: transparent;
-    border: 0;
+    background: none;
+    border: none;
 }
 ._6db1d32c47b6ad72-shop {
     overflow: hidden;
@@ -219,9 +217,6 @@ body {
 .cb9592ad77576717-wrapper {
     margin-bottom: var(--gap);
 }
-._23e6b439306f125a-standardSidebarView {
-    backdrop-filter: var(--panel-backdrop-filter);
-}
 ._0f481cbbd7530492-newMessagesBar {
     top: 12px;
     left: 12px;
@@ -239,7 +234,7 @@ body {
     padding: calc(var(--custom-guild-list-padding) / 2);
 }
 ._740174f3d6a2c8fe-themedBackground {
-    background: transparent;
+    background: none;
 }
 .ec4baf0360ff3578-slateTextArea {
     margin-left: 2px;
@@ -305,7 +300,7 @@ body {
     background-size: 100% calc(100% + (2 * var(--border-thickness)));
 }
 ._24502a4069848acb-root {
-    background: transparent;
+    background: none;
 }
 ._37e49614b9f110a9-container {
     margin-inline-start: 0;
@@ -339,23 +334,20 @@ body {
     inherits: false;
     initial-value: on;
 }
-
 @container body style(--animations: on) {
-    :where(
-        ._2ea32c412048f708-wrapper ._2ea32c412048f708-link,
-        ._91a9d7f7e5248a56-container,
-        ._972a0d22c8afa7f0-channel,
-        .aa8da23faa27393c-side .aa8da23faa27393c-item
-    ) {
-        transition: transform 0.18s cubic-bezier(.2,.8,.2,1);
+    ._2ea32c412048f708-wrapper ._2ea32c412048f708-link,
+    ._91a9d7f7e5248a56-container,
+    ._972a0d22c8afa7f0-channel,
+    .aa8da23faa27393c-side .aa8da23faa27393c-item {
+        transform: translateZ(0);
+        transition: transform 0.25s cubic-bezier(.2,.9,.2,1);
+        will-change: transform;
     }
-    :where(
-        ._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-link,
-        .aa8da23faa27393c-side .aa8da23faa27393c-item:hover,
-        ._91a9d7f7e5248a56-container:hover,
-        ._972a0d22c8afa7f0-channel:hover
-    ) {
-        transform: scale(0.97);
+    ._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-link,
+    .aa8da23faa27393c-side .aa8da23faa27393c-item:hover,
+    ._91a9d7f7e5248a56-container:hover,
+    ._972a0d22c8afa7f0-channel:hover {
+        transform: translateY(-1px) scale(0.96);
     }
 }
 @property --background-image {
@@ -924,7 +916,7 @@ body {
 }
 ._5dec784a68542d60-panel,
 ._722ffae0e1be2672-container {
-    background: transparent;
+    background: none;
 }
 .aa8da23faa27393c-side .aa8da23faa27393c-item:hover {
     background-color: var(--bg-3) !important;
@@ -944,7 +936,7 @@ body {
 .f8896c4f6be18f59-reaction {
     background-color: var(--bg-2);
 }
-.expandedFolderIconWrapper__48112 > svg[style="color: rgb(88, 101, 242);"] /* folder icon */ {
+.expandedFolderIconWrapper__48112 > svg[style="color: rgb(88, 101, 242);"] {
     color: var(--accent-2) !important;
 }
 ._459fb7bcd881f8d6-colorPickerSwatch[style="background-color: rgb(88, 101, 242);"],
@@ -1250,10 +1242,10 @@ body {
         background: center / contain no-repeat;
         border-radius: 0;
         display: var(--custom-nav);
-        transition: transform 0.2s, filter 0.2s;
+        transition: transform 0.18s ease, opacity 0.18s ease;
     }
     .c38106a3f0c3ca76-winButton:hover::after {
-        filter: brightness(0.7);
+        opacity: 0.7;
     }
     .c38106a3f0c3ca76-winButton:active::after {
         transform: scale(0.9);

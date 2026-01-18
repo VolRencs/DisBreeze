@@ -3,8 +3,6 @@ body {
     --gap: 6px; /* Расстояние между панелями */
     --divider-thickness: 2px; /* Толщина разделителя непрочитанных сообщений и границ выделенных сообщений */
 
-    --animations: on;
-
     --custom-app-top-bar-height: 30px; /* Высота заголовка/верхней панели */
 
     --custom-window-controls: on;
