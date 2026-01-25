@@ -1250,13 +1250,13 @@ body {
     .winButtons_c38106:active::after {
         transform: scale(0.9);
     }
-    .winButtons_c38106Close::after {
+    .winButtonsClose_c38106::after {
         background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23ff5f56" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>');
     }
-    .winButtons_c38106MinMax:nth-child(1)::after {
+    .winButtonsMinMax_c38106:nth-child(1)::after {
         background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%2389c23f" stroke-width="2" stroke-linejoin="round"><path d="M5 12h14"/></svg>');
     }
-    .winButtons_c38106MinMax:nth-child(2)::after {
+    .winButtonsMinMax_c38106:nth-child(2)::after {
         background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23ffbd44" stroke-width="2" stroke-linejoin="round"><path d="M6 6h12v12H6z"/></svg>');
     }
 }
