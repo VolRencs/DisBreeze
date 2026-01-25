@@ -1110,7 +1110,8 @@ body {
 .iconBadge__9293f,
 .mentionsBar__7aaec,
 .mention__3b95d,
-.badge_c99c29 {
+.badge_c99c29,
+.voiceChannelHighlightGlow_c69b6d {
     background-color: var(--accent-new);
 }
 .newMessagesBar__0f481 {
