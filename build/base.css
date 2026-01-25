@@ -1110,8 +1110,7 @@ body {
 .iconBadge__9293f,
 .mentionsBar__7aaec,
 .mention__3b95d,
-.badge_c99c29,
-.c69b6db0641110f6-voiceChannelHighlightGlow {
+.badge_c99c29 {
     background-color: var(--accent-new);
 }
 .newMessagesBar__0f481 {
@@ -1121,8 +1120,8 @@ body {
     --control-secondary-background-default: var(--accent-3);
     --control-secondary-background-hover: var(--accent-4);
 }
-.f1ceaca61b18918e-colorable.f1ceaca61b18918e-disconnect:hover,
-.f1ceaca61b18918e-colorable.f1ceaca61b18918e-disconnect {
+.colorable_f1ceac.disconnect_f1ceac:hover,
+.colorable_f1ceac.disconnect_f1ceac {
     background: var(--accent-4);
 }
 .updateIconForeground__49676 {
