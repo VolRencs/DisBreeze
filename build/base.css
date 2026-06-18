@@ -1050,10 +1050,10 @@ body {
 .selectedIcon__2f4f7,
 .colorable_f1ceac.primaryDark_f1ceac,
 .colorable_f1ceac.primaryDark_f1ceac .centerIcon_f1ceac,
-.iconBadge__650eb.base__2b1f5,
+.iconBadge__650eb.base__463b7,
 #app-mount .akaBadge__488b1,
 #app-mount .message__9a9f9,
-.friendRequestsButton__523aa .base__2b1f5,
+.friendRequestsButton__523aa .base__463b7,
 .tooltipBlack__382e7,
 .colorable_f1ceac.primaryDark_f1ceac,
 .colorable_f1ceac.primaryDark_f1ceac .centerIcon_f1ceac,
@@ -1071,13 +1071,13 @@ body {
 .grabber_a562c8 {
     background-color: var(--text-3);
 }
-.textBadge__2b1f5,
+.textBadge__463b7,
 .iconBadge__650eb.isCurrentUserConnected__650eb,
 .botTagOP__82f07,
 .vcd-screen-picker-option-radio[data-checked='true'] .defaultColor__4bd52 {
     color: var(--text-0);
 }
-.textBadge__2b1f5[style='background-color: var(--primary-500);'] {
+.textBadge__463b7[style='background-color: var(--primary-500);'] {
     background-color: var(--bg-2) !important;
     --white-500: var(--text-3);
 }
@@ -1091,7 +1091,7 @@ body {
     color: var(--bg-4);
 }
 .container__37e49,
-.numberBadge__2b1f5,
+.numberBadge__463b7,
 .toolbar__9293f {
     --status-danger: var(--accent-new);
 }
