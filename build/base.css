@@ -1,4 +1,4 @@
-@import url('https://volrencs.github.io/DisBreeze/assets/fonts/NotoSans.css');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400&display=swap');
 
 :root {
     container-name: root;
@@ -9,8 +9,8 @@
 body {
     container-name: body;
 
-    --font: 'NotoSans';
-    --code-font: 'NotoSans';
+    --font: 'Geist';
+    --code-font: 'Geist';
 
     --gap: 6px;
     --divider-thickness: 2px;
@@ -339,23 +339,44 @@ body {
     .container__91a9d,
     .channel__972a0,
     .side_aa8da2 .item_aa8da2 {
-        transform: translateZ(0);
-        transition: transform 0.25s cubic-bezier(.2,.9,.2,1);
-        will-change: transform;
-    }
+        transition: transform .2s cubic-bezier(.22, 1, .36, 1);
+}
     .wrapper__2ea32:hover .link__2ea32,
-    .side_aa8da2 .item_aa8da2:hover,
     .container__91a9d:hover,
-    .channel__972a0:hover {
-        transform: translateY(-1px) scale(0.96);
+    .channel__972a0:hover,
+    .side_aa8da2 .item_aa8da2:hover {
+        transform: translateY(-1px) scale(.992);
+}
+@property --small-user-panel {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+@container body style(--small-user-panel: on) {
+    .panels__5e434 {
+        right: 0;
+        left: unset;
+        width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     }
+    .guilds__5e434 {
+        margin-bottom: 0;
+    }
+}
+.connection_e131a9:has(> .inner_e131a9 .labelWrapper__06d62 > a .lineClamp1__4bd52 p) {
+    padding: calc(var(--custom-guild-list-padding) - var(--custom-panels-spacing) + 4px) 0;
+}
+body {
+    --window-control-size: 14px;
+    --window-controls-padding: calc(var(--gap) - (var(--window-control-size) / 2) + 1px);
+}
+.winButtons_c38106 {
+    padding-right: var(--window-controls-padding);
 }
 @property --background-image {
     syntax: 'on | off';
     inherits: false;
     initial-value: off;
 }
-
 @container body style(--background-image: on) {
     #app-mount .bg__960e4 {
         background: var(--background-image-url);
@@ -363,7 +384,6 @@ body {
         background-position: center;
     }
 }
-
 @property --custom-chatbar {
     syntax: 'off | on';
     inherits: false;
@@ -1166,10 +1186,10 @@ body {
     background: var(--reply);
 }
 rect, path, .vc-platform-indicator > svg, .status_a423bd {
-    &[fill='#84858d'], &[style*='rgb(132, 133, 141)'] { fill: var(--offline) !important; }
-    &[fill='#45a366'], &[fill='var(--status-positive)'], &[style*='rgb(69, 163, 102)'] { fill: var(--online) !important; }
-    &[fill='#ffc04e'], &[style*='rgb(255, 192, 78)'] { fill: var(--idle) !important; }
-    &[fill='#da3e44'], &[style*='rgb(218, 62, 68)'] { fill: var(--dnd) !important; }
+    &[fill='#84858d'], &[style*='rgb(132, 133, 141)'] { fill: var(--offline) !important; background-color: var(--offline) !important; }
+    &[fill='#45a366'], &[fill='var(--status-positive)'], &[style*='rgb(69, 163, 102)'] { fill: var(--online) !important; background-color: var(--online) !important; }
+    &[fill='#ffc04e'], &[style*='rgb(255, 192, 78)'] { fill: var(--idle) !important; background-color: var(--idle) !important; }
+    &[fill='#da3e44'], &[style*='rgb(218, 62, 68)'] { fill: var(--dnd) !important; background-color: var(--dnd) !important; }
 }
 .radioBar__88a69 {
     &[style*='--radio-bar-accent-color: var(--yellow-360)'] { --radio-bar-accent-color: var(--yellow-2) !important; }
@@ -1210,12 +1230,12 @@ rect, path, .vc-platform-indicator > svg, .status_a423bd {
         mask-size: var(--icon-svg-size);
         mask-position: center;
         mask-repeat: no-repeat;
-        transition: background-color 0.15s ease-out, transform 0.4s ease;
+        transition: background-color 0.2s ease, transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
     .wrapper__6e9f8[data-list-item-id='guildsnav___home']:hover > .childWrapper__6e9f8::before,
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'].selected__6e9f8 > .childWrapper__6e9f8::before {
         background: var(--icon-color-after);
-        transform: rotate(-360deg) scale(0.8);
+        transform: scale(1.15) rotate(10deg);
     }
 }
 @property --custom-window-controls {
@@ -1231,24 +1251,33 @@ body {
         background: none !important;
         width: calc(var(--window-control-size) * 2);
         height: var(--custom-app-top-bar-height);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .winButton_c38106 > svg {
         display: none;
     }
     .winButton_c38106::after {
         content: '';
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
         background: center / contain no-repeat;
-        border-radius: 0;
+        border-radius: 6px;
         display: var(--custom-nav);
-        transition: transform 0.18s ease, opacity 0.18s ease;
+        transition:
+        transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+        opacity 0.2s ease,
+        filter 0.2s ease;
     }
     .winButton_c38106:hover::after {
-        opacity: 0.7;
+        opacity: 0.85;
+        filter: brightness(1.2);
+        transform: scale(1.1);
     }
     .winButton_c38106:active::after {
-        transform: scale(0.9);
+        transform: scale(0.85);
+        filter: brightness(0.9);
     }
     .winButtonClose_c38106::after {
         background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23ff5f56" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>');
