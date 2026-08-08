@@ -20,7 +20,7 @@ jobs:
         with:
           folder: build
           ext: css
-          diff: "https://raw.githubusercontent.com/SyndiShanX/Update-Classes/main/Changes.txt"
+          diff: "https://codeberg.org/SyndiShanX/Update-Classes/raw/branch/pages/Changes.txt"
       - uses: EndBug/add-and-commit@v10
         if: ${{ steps.update.outputs.totalChanges > 0 }}
         with:
